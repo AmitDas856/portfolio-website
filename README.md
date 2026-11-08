@@ -1,4 +1,6 @@
-# Portfolio Website
+# Portfolio Website (React edition)
+
+My newer portfolio is a plain HTML page at https://amitdas856.github.io (source: github.com/AmitDas856/AmitDas856.github.io). This repo keeps the earlier React version.
 
 A personal portfolio website for Amit Das, built with React, Vite and Tailwind CSS.
 

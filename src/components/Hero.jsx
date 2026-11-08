@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDownload } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -11,16 +11,17 @@ const Hero = () => {
         Amit Das
       </h1>
       <p className="text-xl md:text-2xl mb-8 max-w-xl drop-shadow-md">
-        Motivated Computer Science Student — Blockchain | Machine Learning | Software Development
+        MSc Data Science & AI student in Sheffield — Machine Learning | Security | Software Development
       </p>
 
       <a
-        href="/AmitDas_Resume.pdf"  // Replace with your actual resume path
-        download
+        href="https://www.linkedin.com/in/amit-das-724b7243b"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition"
       >
-        <FaDownload className="mr-2" />
-        Download Resume
+        <FaLinkedin className="mr-2" />
+        View LinkedIn
       </a>
     </section>
   );
