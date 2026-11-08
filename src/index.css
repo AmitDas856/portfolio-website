@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth color transitions for dark mode */
+html {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Scroll behavior for smooth anchor link navigation */
+html {
+  scroll-behavior: smooth;
+}
