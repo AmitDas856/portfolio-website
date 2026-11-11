@@ -17,5 +17,5 @@ npm run dev
 ```
 Build for production with `npm run build`.
 
-## Note
-Not yet verified with a production build on a clean install; if `npm install` or `npm run dev` fails, please open an issue.
+## Checks
+GitHub Actions runs a clean `npm ci`, `npm run lint` and `npm run build` on every push.
